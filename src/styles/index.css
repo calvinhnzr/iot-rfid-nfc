@@ -1,0 +1,17 @@
+html,
+body {
+	background-color: #191a1b;
+	/* overscroll-behavior-y: contain; */
+}
+
+.App,
+#root {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/* hide scroll bar of code visual */
+::-webkit-scrollbar {
+	display: none;
+}
